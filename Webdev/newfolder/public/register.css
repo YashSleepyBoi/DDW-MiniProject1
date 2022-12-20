@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Mouse+Memoirs&display=swap'); 
+
+:root{
+    --backgroundcolor:white;
+    --primarycolordark:#5A4683;
+    --primarycolortone:#D7CDE9;
+    font-family: 'Mogra', cursive;
+    font-family: 'Mouse Memoirs', sans-serif; 
+    
+}
+
+input:focus {outline:none;}
+
+body{
+    margin-top:20px;
+    display:flex; 
+    width:auto;
+    align-items: center;
+    flex-direction:column;
+    
+}
+
+.container{
+    margin:auto 0px auto 0px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.TitleText{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-size:35px;
+    letter-spacing:2px;
+}
+
+
+.pageinput{
+    margin:10px 0px 30px 0px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+
+.pageinput input{
+    border:2px solid var(--primarycolordark);
+    background-color: var(--primarycolortone);
+    text-align: center;
+    border-radius:6px;
+    width:250px;    
+    height: 36px;
+    margin:20px 0px 15px 0px;
+    transition: border .7s ease-in-out .5s;
+    font-family: 'Mogra', cursive;
+    font-family: 'Mouse Memoirs', sans-serif; 
+    font-size:20px;
+    color:var(--primarycolordark);
+
+}
+
+.pageinput input:focus{
+    border: 4px dashed var(--primarycolordark);
+}
+
+::placeholder{
+    color:var(--primarycolordark);
+    font-size:20px;
+    font-family: 'Mogra', cursive;
+    font-family: 'Mouse Memoirs', sans-serif; 
+    letter-spacing:1px;
+}
+
+.signinButton{
+    margin:10px 5px 10px 5px;
+}
+
+a{
+    text-decoration:none;
+    color:white;    
+}
+
+.registerlink{
+
+    color:var(--primarycolordark);    
+}
+.underline{
+    display:box;
+    width:10px;
+    height:10px;
+}
+.actionbutton{
+    border-radius:7px;
+    background-color:var(--primarycolordark);
+    width:160px;
+    font-family: inherit;
+    letter-spacing: 1.1px;
+    height: 35px;
+    color:white;
+    font-size:20px;
+    border:none;
+    margin-top:20px;
+    box-shadow: 5px 10px 1px black;
+    transition: 0.1s .05s box-shadow ease-in-out;
+}
+
+.actionbutton:active{
+    box-shadow: 4px 6px 1px black;
+}
+
+.registertext{
+    background-color:var(--primarycolordark);
+}
+
+.registerlink{
+    font-size:25px;
+    text-decoration:underline solid 3px;
+    background-color:white;
+}
+
+
+a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);    
+}
+
+
+.RegisterButton{
+    margin:10px 5px 10px 5px;
+}
+
+a{
+    text-decoration:none;
+    color:white;    
+}
